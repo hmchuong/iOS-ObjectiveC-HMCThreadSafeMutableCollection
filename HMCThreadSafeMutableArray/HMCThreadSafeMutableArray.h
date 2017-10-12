@@ -2,8 +2,8 @@
 //  HMCThreadSafeMutableArray.h
 //  HMCThreadSafeMutableArray
 //
-//  Created by chuonghm on 7/24/17.
-//  Copyright © 2017 VNG Corp., Zalo Group. All rights reserved.
+//  Created by hmchuong on 7/24/17.
+//  Copyright © Chương M. Huỳnh. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

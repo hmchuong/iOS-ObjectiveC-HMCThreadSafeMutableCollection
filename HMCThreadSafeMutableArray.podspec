@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HMCThreadSafeMutableArray"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "HMCThreadSafeMutableArray is an array that can be use safely in mutiple threads, handling with race condition"
   s.description  = "NSMutableArray is threadunsafe (race condition would appear when a NSMutableArray accessed from multiple threads). This project is a threadsafe wrapper, which provides base methods for creating, adding, removing and accessing object in an array without race condition."
 
