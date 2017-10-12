@@ -1,4 +1,4 @@
-# iOS-ObjectiveC-HMCThreadSafeMutableArray
+# iOS-ObjectiveC-HMCThreadSafeMutableCollection
 ![cocoapods](https://img.shields.io/cocoapods/v/HMCThreadSafeMutableCollection.svg?style=flat) ![platform](https://camo.githubusercontent.com/7bbc7493c87f5447d92c2394201eec2f79ecbe1d/68747470733a2f2f696d672e736869656c64732e696f2f636f636f61706f64732f702f416c616d6f666972652e7376673f7374796c653d666c6174)
 
 NSMutableArray, NSMutableDictionary is threadunsafe (race condition would appear when a NSMutableArray, NSMutableDictionary accessed from multiple threads). This project is a threadsafe wrapper, which provides base methods for creating, adding, removing and accessing object in an array without race condition.
