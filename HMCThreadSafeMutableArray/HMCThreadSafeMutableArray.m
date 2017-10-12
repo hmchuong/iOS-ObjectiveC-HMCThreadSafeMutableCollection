@@ -158,4 +158,40 @@
     return count;
 }
 
+- (NSArray *) filteredArrayUsingPredicate:(NSPredicate *)predicate {
+    
+    NSArray __block *result;
+    dispatch_sync(_tsQueue, ^{
+        result = [_internalArray filteredArrayUsingPredicate:predicate];
+    });
+    return result;
+}
+
+- (NSInteger)indexOfObject: (NSObject *)object {
+    
+    NSInteger __block result;
+    dispatch_sync(_tsQueue, ^{
+        result = [_internalArray indexOfObject:object];
+    });
+    return result;
+}
+
+- (BOOL)containsObject: (id)object {
+    
+    BOOL __block result;
+    dispatch_sync(_tsQueue, ^{
+        result = [_internalArray containsObject:object];
+    });
+    return result;
+}
+
+- (NSArray *)toNSArray {
+    
+    NSArray __block *array;
+    dispatch_sync(_tsQueue, ^{
+        array = [[NSArray alloc] initWithArray:_internalArray];
+    });
+    return array;
+}
+
 @end
