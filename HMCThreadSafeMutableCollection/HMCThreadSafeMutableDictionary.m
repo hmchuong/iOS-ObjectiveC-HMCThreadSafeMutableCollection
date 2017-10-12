@@ -11,7 +11,7 @@
 @interface HMCThreadSafeMutableDictionary()
 
 @property (strong,nonatomic) NSMutableDictionary *internalDictionary;
-@property (strong,nonatomic) dispatch_queue_t tsQueue;
+@property (nonatomic) dispatch_queue_t tsQueue;
 
 @end
 
