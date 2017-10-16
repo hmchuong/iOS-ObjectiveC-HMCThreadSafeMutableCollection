@@ -2,7 +2,7 @@
 //  HMCtsMutableDictionary.m
 //  HMCtsMutableDictionary
 //
-//  Created by chuonghm on 8/9/17.
+//  Created by chuongh on 8/9/17.
 //  Copyright © 2017 Chương M. Huỳnh. All rights reserved.
 //
 
@@ -22,7 +22,7 @@
     self = [super init];
     
     _internalDictionary = [[NSMutableDictionary alloc]init];
-    _tsQueue = dispatch_queue_create("com.vn.hmchuong.HMCtsMutableDictionary", NULL);
+    _tsQueue = dispatch_queue_create("com.vn.hmchuong.HMCThreadSafeMutableDictionary", NULL);
     
     return self;
 }

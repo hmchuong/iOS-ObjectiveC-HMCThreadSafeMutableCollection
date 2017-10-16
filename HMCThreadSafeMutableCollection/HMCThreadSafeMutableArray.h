@@ -2,7 +2,7 @@
 //  HMCThreadSafeMutableArray.h
 //  HMCThreadSafeMutableArray
 //
-//  Created by hmchuong on 7/24/17.
+//  Created by chuonghuynh on 7/24/17.
 //  Copyright © Chương M. Huỳnh. All rights reserved.
 //
 

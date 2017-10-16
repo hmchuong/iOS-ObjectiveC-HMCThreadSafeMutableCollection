@@ -1,15 +1,15 @@
 //
-//  HMCtsMutableDictionary.h
-//  HMCtsMutableDictionary
+//  HMCThreadSafeMutableDictionary.h
+//  HMCThreadSafeMutableDictionary
 //
-//  Created by hmchuong on 8/9/17.
+//  Created by chuonghuynh on 8/9/17.
 //  Copyright © 2017 Chương M. Huỳnh. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 /**
- ZLMtsMutableDictionary
+ HMCThreadSafeMutableDictionary
  */
 @interface HMCThreadSafeMutableDictionary : NSObject
 
